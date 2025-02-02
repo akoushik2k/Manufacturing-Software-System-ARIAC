@@ -69,6 +69,7 @@ final_group1
 
 ## Usage
 Downlaod the official setup from ARIAC for simulation and world setup [ARIAC GITHUB](https://github.com/usnistgov/ARIAC/tree/ariac2023)
+
 [Note]: The code is written based on the ARIAC 2023 models so only download those
 
 
