@@ -1,15 +1,8 @@
-# Final Group 1
-#### Authors: 
-- Akhil Javvadi (UID: 120147517)
-- Charith Gannapu Reddy (UID: 119360347)
-- Koushik Alapati (UID: 120239489) 
-- Mohammed Munawwar (UID: 120241642)
-- Varad Nerlekar (UID: 120501135)
-
+# Manufacturing Software System ARIAC
 ---
 ## Introduction
 This project contains motion planning & completing orders RWA 5, based on ARIAC (Agile Robotics for Industrial Automation Competition) v2023.5.0. 
-The project is implemented in either Python and C++ and focuses on retrieving kitting trays and parts for each order in the ARIAC environment.
+The project is implemented in Python and C++ and focuses on retrieving kitting trays and parts for each order in the ARIAC environment.
 <sup>[ARIAC 2023 Documentation](https://pages.nist.gov/ARIAC_docs/en/2023.5.0/index.html)</sup>
 
 MoveIt Order Fulfillment System with ROS
@@ -69,8 +62,15 @@ final_group1
     - enum
 - [ROS2 Galactic](https://docs.ros.org/en/galactic/Installation.html)
 - [ARIAC Framework](https://pages.nist.gov/ARIAC_docs/en/2023.5.0/getting_started/installation.html)
+- Files required in Workspace source folder
+    - ariac
+    - final_group1
+    - robot_msgs
 
 ## Usage
+Downlaod the official setup from ARIAC for simulation and world setup [ARIAC GITHUB](https://github.com/usnistgov/ARIAC/tree/ariac2023)
+[Note]: The code is written based on the ARIAC 2023 models so only download those
+
 
 Make sure you have created a copy of ```rwa5_spring2024.yaml``` and placed it in the given location:
 ```
@@ -78,7 +78,7 @@ Make sure you have created a copy of ```rwa5_spring2024.yaml``` and placed it in
 ```
 
 [Note]: Ensure that you have built and sourced ariac environment properly. If not, follow these steps:
-[Note]: We have addded another package with robot_msgs which is also submitted along with the package save both the packages in your workspace
+
 1. ```cd <your_ariac_workspace>```
 2. ```colcon build```
 3. ```source install/setup.bash```
