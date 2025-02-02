@@ -1,6 +1,6 @@
 # Manufacturing Software System ARIAC
 
-[Environment](environment.png)
+(environment.png)
 ---
 ## Introduction
 This project contains motion planning & completing orders RWA 5, based on ARIAC (Agile Robotics for Industrial Automation Competition) v2023.5.0. 
