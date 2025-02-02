@@ -3,7 +3,7 @@
 ## Introduction
 This project contains motion planning & completing orders RWA 5, based on ARIAC (Agile Robotics for Industrial Automation Competition) v2023.5.0. 
 The project is implemented in Python and C++ and focuses on retrieving kitting trays and parts for each order in the ARIAC environment.
-<sup>[ARIAC 2023 Documentation](https://pages.nist.gov/ARIAC_docs/en/2023.5.0/index.html)</sup>
+[ARIAC 2023 Documentation](https://pages.nist.gov/ARIAC_docs/en/2023.5.0/index.html)</sup>
 
 MoveIt Order Fulfillment System with ROS
 
